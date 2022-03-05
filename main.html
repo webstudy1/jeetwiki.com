@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="shortcut icon" type="image/x-icon" href="https://00096.github.io/jeetwiki.com/favicon.ico" />
+	        
 		<title>지트위키</title>
 	</head>
     	<body>
@@ -17,6 +18,22 @@
 		<a href="https://webstudy1.github.io/jeetwiki.com/list.html">>문서 목록</a>
 		<br>
 		<br>
+<input id='search' onchange='search()'/>
+		<script>
+			function search()  {
+  const name = document.getElementById('search').value;
+				    exp = /용현/; 
+				var link = 'error.html';
+if(exp.name(stringVal)){
+ 
+
+	link = 'A001.html';
+
+};
+			location.href=link;
+location.replace(link);
+}
+		</script>
 		<br> <!--브로민-->
 		<br>
 		<br>
