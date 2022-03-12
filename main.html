@@ -32,6 +32,10 @@ if(exp.test(name)){
 	link = 'A001.html';
 
 };
+				exp = /지트/;
+				if(exp.test(name)){
+					link = 'jeet.html';
+				};
 			location.href=link;
 location.replace(link);
 }
